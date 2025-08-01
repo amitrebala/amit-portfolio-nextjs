@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import Layout from '../components/layout'
 import Head from 'next/head'
 import Container from '../components/container'
@@ -15,7 +14,7 @@ const About = () => {
                   <Container>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                       <div>
-                        <Image title={"amit-rebala"} src={"/assets/about/amit.jpeg"} height={295} width={293} />
+                        <img title="amit-rebala" src="/assets/about/amit.jpeg" height={295} width={293} alt="Amit Rebala" />
                       </div>
                       <div className="md:pr-8 md:col-span-2">
                         <h1 className="text-2xl md:text-3xl font-bold leading-tight mb-12">

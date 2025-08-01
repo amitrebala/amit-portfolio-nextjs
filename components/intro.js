@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 
 export default function Intro() {
@@ -17,8 +16,7 @@ export default function Intro() {
           Download Resume
         </a>
       </div>
-      <Image title={"amit-rebala"} src={"/assets/posts/authors/amit.jpeg"} height={295} width={293}
-      />
+      <img title="amit-rebala" src="/assets/posts/authors/amit.jpeg" height={295} width={293} alt="Amit Rebala" />
     </section>
   )
 }
