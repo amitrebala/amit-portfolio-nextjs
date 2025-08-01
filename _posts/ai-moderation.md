@@ -16,6 +16,8 @@ Built a sophisticated AI-powered content moderation platform that revolutionized
 
 The platform addressed the critical challenge of maintaining premium editorial standards while processing thousands of daily submissions from a community of 30M+ monthly users, enabling sustainable UGC programs without compromising brand integrity.
 
+![AI Moderation Control Center](/assets/posts/moderation/example.svg)
+
 ---
  
 ## My Role

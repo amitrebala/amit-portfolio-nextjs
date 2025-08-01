@@ -16,6 +16,8 @@ Launched a comprehensive User-Generated Content (UGC) monetization platform that
 
 The solution addressed the critical challenge of converting high-engagement community content into measurable business value while maintaining editorial quality and brand standards across premium media properties.
 
+![UGC Platform Dashboard](/assets/posts/ugc/example.svg)
+
 ---
  
 ## My Role

@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC"/>
+  
+  <!-- Main Container -->
+  <rect x="100" y="100" width="1000" height="600" rx="20" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="140" y="140" width="920" height="80" rx="10" fill="#090E2B"/>
+  <text x="180" y="190" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">Subscription Growth Engine</text>
+  
+  <!-- Growth Chart -->
+  <rect x="180" y="280" width="400" height="300" rx="8" fill="#009BA0" opacity="0.1"/>
+  <path d="M200 520 L250 480 L300 420 L350 360 L400 300 L450 240 L500 180 L550 140" stroke="#009BA0" stroke-width="6" fill="none"/>
+  
+  <!-- Growth Arrow -->
+  <path d="M530 160 L550 140 L570 160" stroke="#009BA0" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M550 140 L550 180" stroke="#009BA0" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Growth Numbers -->
+  <circle cx="550" cy="140" r="10" fill="#009BA0"/>
+  <text x="570" y="150" fill="#090E2B" font-family="Arial, sans-serif" font-size="20" font-weight="bold">2.5x Revenue</text>
+  
+  <!-- Subscription Tiers -->
+  <g transform="translate(650, 300)">
+    <rect x="0" y="0" width="300" height="60" rx="8" fill="#FF0057" opacity="0.8"/>
+    <text x="20" y="25" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Premium Tier</text>
+    <text x="20" y="45" fill="white" font-family="Arial, sans-serif" font-size="12">65% Conversion Rate</text>
+    
+    <rect x="0" y="80" width="250" height="60" rx="8" fill="#FFB201" opacity="0.8"/>
+    <text x="20" y="105" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Standard Tier</text>
+    <text x="20" y="125" fill="white" font-family="Arial, sans-serif" font-size="12">45% Conversion Rate</text>
+    
+    <rect x="0" y="160" width="200" height="60" rx="8" fill="#F67A49" opacity="0.8"/>
+    <text x="20" y="185" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Basic Tier</text>
+    <text x="20" y="205" fill="white" font-family="Arial, sans-serif" font-size="12">78% Conversion Rate</text>
+  </g>
+  
+  <!-- User Journey Steps -->
+  <g transform="translate(180, 600)">
+    <circle cx="30" cy="30" r="25" fill="#FF0057"/>
+    <text x="20" y="38" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">1</text>
+    <text x="5" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Discovery</text>
+    
+    <path d="M65 30 L105 30" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="130" cy="30" r="25" fill="#009BA0"/>
+    <text x="120" y="38" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">2</text>
+    <text x="100" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Onboarding</text>
+    
+    <path d="M165 30 L205 30" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="230" cy="30" r="25" fill="#FFB201"/>
+    <text x="220" y="38" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">3</text>
+    <text x="205" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Conversion</text>
+    
+    <path d="M265 30 L305 30" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <circle cx="330" cy="30" r="25" fill="#F67A49"/>
+    <text x="320" y="38" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">4</text>
+    <text x="310" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Retention</text>
+  </g>
+  
+  <!-- Key Metrics Panel -->
+  <g transform="translate(720, 480)">
+    <rect width="260" height="200" rx="12" fill="#009BA0" opacity="0.1"/>
+    <text x="20" y="30" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Key Achievements</text>
+    <text x="20" y="60" fill="#090E2B" font-family="Arial, sans-serif" font-size="14">• 2.5x Subscription Revenue</text>
+    <text x="20" y="85" fill="#090E2B" font-family="Arial, sans-serif" font-size="14">• 65% Onboarding Rate</text>
+    <text x="20" y="110" fill="#090E2B" font-family="Arial, sans-serif" font-size="14">• 40% Churn Reduction</text>
+    <text x="20" y="135" fill="#090E2B" font-family="Arial, sans-serif" font-size="14">• 8 Brand Properties</text>
+    <text x="20" y="160" fill="#090E2B" font-family="Arial, sans-serif" font-size="14">• ML-Powered Insights</text>
+  </g>
+  
+  <!-- Predictive Analytics Visualization -->
+  <g transform="translate(200, 350)">
+    <rect x="0" y="0" width="350" height="80" rx="8" fill="white" stroke="#E2E8F0"/>
+    <text x="15" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Predictive Churn Prevention</text>
+    
+    <!-- Churn risk indicators -->
+    <circle cx="50" cy="50" r="8" fill="#FF0057"/>
+    <text x="65" y="55" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">High Risk: 127 users</text>
+    
+    <circle cx="200" cy="50" r="8" fill="#FFB201"/>
+    <text x="215" y="55" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Medium Risk: 341 users</text>
+    
+    <circle cx="50" cy="65" r="8" fill="#009BA0"/>
+    <text x="65" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Low Risk: 2,847 users</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#090E2B" />
+    </marker>
+  </defs>
+</svg>

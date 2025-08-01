@@ -16,6 +16,8 @@ Developed a comprehensive subscription growth engine that transformed how premiu
 
 The solution addressed critical challenges in digital media subscription business models, including high acquisition costs, complex onboarding processes, and subscriber churn, while maintaining premium content access and user experience standards.
 
+![Subscription Analytics Dashboard](/assets/posts/subscription/example.svg)
+
 ---
  
 ## My Role

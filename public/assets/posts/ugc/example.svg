@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC"/>
+  
+  <!-- Main Dashboard -->
+  <rect x="50" y="50" width="1100" height="700" rx="16" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Top Navigation -->
+  <rect x="50" y="50" width="1100" height="60" rx="16" fill="#090E2B"/>
+  <text x="80" y="85" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">UGC Platform Dashboard</text>
+  
+  <!-- Left Sidebar -->
+  <rect x="80" y="140" width="200" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="100" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Content Moderation</text>
+  <rect x="100" y="180" width="160" height="30" rx="4" fill="#009BA0" opacity="0.8"/>
+  <text x="110" y="200" fill="white" font-family="Arial, sans-serif" font-size="12">AI Processing: 85%</text>
+  
+  <text x="100" y="240" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Revenue Streams</text>
+  <rect x="100" y="250" width="160" height="25" rx="4" fill="#FFB201" opacity="0.8"/>
+  <text x="110" y="267" fill="white" font-family="Arial, sans-serif" font-size="11">Sponsored Content</text>
+  <rect x="100" y="280" width="160" height="25" rx="4" fill="#FF0057" opacity="0.8"/>
+  <text x="110" y="297" fill="white" font-family="Arial, sans-serif" font-size="11">Creator Partnerships</text>
+  <rect x="100" y="310" width="160" height="25" rx="4" fill="#F67A49" opacity="0.8"/>
+  <text x="110" y="327" fill="white" font-family="Arial, sans-serif" font-size="11">Premium Subscriptions</text>
+  
+  <!-- Main Content Area -->
+  <rect x="320" y="140" width="520" height="350" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="340" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Revenue Impact Over Time</text>
+  
+  <!-- Revenue Chart -->
+  <g transform="translate(340, 200)">
+    <line x1="0" y1="260" x2="480" y2="260" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="260" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Chart bars -->
+    <rect x="40" y="200" width="40" height="60" fill="#FFB201" opacity="0.7"/>
+    <rect x="100" y="160" width="40" height="100" fill="#FFB201" opacity="0.7"/>
+    <rect x="160" y="120" width="40" height="140" fill="#FFB201" opacity="0.7"/>
+    <rect x="220" y="80" width="40" height="180" fill="#FFB201" opacity="0.7"/>
+    <rect x="280" y="40" width="40" height="220" fill="#FFB201" opacity="0.8"/>
+    <rect x="340" y="20" width="40" height="240" fill="#FFB201"/>
+    <rect x="400" y="10" width="40" height="250" fill="#FFB201"/>
+    
+    <!-- Labels -->
+    <text x="50" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Q1</text>
+    <text x="110" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Q2</text>
+    <text x="170" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Q3</text>
+    <text x="230" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Q4</text>
+    <text x="290" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Y2</text>
+    <text x="350" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Y3</text>
+    <text x="410" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Now</text>
+    
+    <!-- Revenue marker -->
+    <text x="350" y="-10" fill="#FFB201" font-family="Arial, sans-serif" font-size="18" font-weight="bold">$760K+</text>
+  </g>
+  
+  <!-- User Metrics Panel -->
+  <rect x="320" y="520" width="520" height="170" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="340" y="550" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">User Engagement Metrics</text>
+  
+  <g transform="translate(340, 570)">
+    <circle cx="30" cy="30" r="25" fill="#FF0057" opacity="0.1"/>
+    <circle cx="30" cy="30" r="20" fill="#FF0057" opacity="0.3"/>
+    <circle cx="30" cy="30" r="15" fill="#FF0057"/>
+    <text x="15" y="35" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">7x</text>
+    <text x="10" y="75" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">Engagement</text>
+    
+    <circle cx="150" cy="30" r="25" fill="#009BA0" opacity="0.1"/>
+    <circle cx="150" cy="30" r="20" fill="#009BA0" opacity="0.3"/>
+    <circle cx="150" cy="30" r="15" fill="#009BA0"/>
+    <text x="132" y="35" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">30M+</text>
+    <text x="135" y="75" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">Users</text>
+    
+    <circle cx="270" cy="30" r="25" fill="#F67A49" opacity="0.1"/>
+    <circle cx="270" cy="30" r="20" fill="#F67A49" opacity="0.3"/>
+    <circle cx="270" cy="30" r="15" fill="#F67A49"/>
+    <text x="251" y="35" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">99.2%</text>
+    <text x="250" y="75" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">Accuracy</text>
+    
+    <circle cx="390" cy="30" r="25" fill="#FFB201" opacity="0.1"/>
+    <circle cx="390" cy="30" r="20" fill="#FFB201" opacity="0.3"/>
+    <circle cx="390" cy="30" r="15" fill="#FFB201"/>
+    <text x="376" y="35" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">85%</text>
+    <text x="365" y="75" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">Automation</text>
+  </g>
+  
+  <!-- Right Sidebar -->
+  <rect x="870" y="140" width="250" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="890" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Content Pipeline</text>
+  
+  <!-- Content flow -->
+  <g transform="translate(890, 190)">
+    <rect x="0" y="0" width="210" height="40" rx="6" fill="#009BA0" opacity="0.2"/>
+    <text x="10" y="15" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">User Submissions</text>
+    <text x="10" y="30" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">2,847 today</text>
+    
+    <path d="M105 50 L105 70" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="0" y="80" width="210" height="40" rx="6" fill="#FFB201" opacity="0.2"/>
+    <text x="10" y="95" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">AI Processing</text>
+    <text x="10" y="110" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Processing...</text>
+    
+    <path d="M105 130 L105 150" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="0" y="160" width="210" height="40" rx="6" fill="#FF0057" opacity="0.2"/>
+    <text x="10" y="175" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Content Approved</text>
+    <text x="10" y="190" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">2,623 published</text>
+    
+    <path d="M105 210 L105 230" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="0" y="240" width="210" height="40" rx="6" fill="#F67A49" opacity="0.2"/>
+    <text x="10" y="255" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Revenue Generated</text>
+    <text x="10" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">$12,485 today</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#090E2B" />
+    </marker>
+  </defs>
+</svg>
