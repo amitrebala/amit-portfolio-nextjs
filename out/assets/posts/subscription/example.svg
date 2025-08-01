@@ -1,0 +1,166 @@
+<svg viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC"/>
+  
+  <!-- Main Dashboard -->
+  <rect x="50" y="50" width="1100" height="700" rx="16" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Top Navigation -->
+  <rect x="50" y="50" width="1100" height="60" rx="16" fill="#090E2B"/>
+  <text x="80" y="85" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Subscription Analytics Dashboard</text>
+  
+  <!-- Left Panel - Subscription Tiers -->
+  <rect x="80" y="140" width="280" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="100" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Subscription Tiers</text>
+  
+  <!-- Premium Tier -->
+  <rect x="100" y="190" width="240" height="120" rx="8" fill="#FF0057" opacity="0.1"/>
+  <rect x="110" y="200" width="220" height="30" rx="4" fill="#FF0057"/>
+  <text x="120" y="220" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Premium - $29.99/month</text>
+  <text x="120" y="250" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Unlimited access</text>
+  <text x="120" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Priority support</text>
+  <text x="120" y="290" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Conversion: 65%</text>
+  
+  <!-- Standard Tier -->
+  <rect x="100" y="330" width="240" height="120" rx="8" fill="#009BA0" opacity="0.1"/>
+  <rect x="110" y="340" width="220" height="30" rx="4" fill="#009BA0"/>
+  <text x="120" y="360" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Standard - $14.99/month</text>
+  <text x="120" y="390" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Limited access</text>
+  <text x="120" y="410" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Email support</text>
+  <text x="120" y="430" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Conversion: 45%</text>
+  
+  <!-- Basic Tier -->
+  <rect x="100" y="470" width="240" height="120" rx="8" fill="#FFB201" opacity="0.1"/>
+  <rect x="110" y="480" width="220" height="30" rx="4" fill="#FFB201"/>
+  <text x="120" y="500" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Basic - $4.99/month</text>
+  <text x="120" y="530" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Basic features</text>
+  <text x="120" y="550" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Community support</text>
+  <text x="120" y="570" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Conversion: 78%</text>
+  
+  <!-- Center Panel - Revenue Growth Chart -->
+  <rect x="390" y="140" width="500" height="350" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="410" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Revenue Growth - 2.5x Increase</text>
+  
+  <!-- Revenue Chart -->
+  <g transform="translate(410, 200)">
+    <line x1="0" y1="250" x2="460" y2="250" stroke="#E2E8F0" stroke-width="1"/>
+    <line x1="0" y1="0" x2="0" y2="250" stroke="#E2E8F0" stroke-width="1"/>
+    
+    <!-- Chart area -->
+    <path d="M0 250 L60 220 L120 180 L180 140 L240 100 L300 70 L360 40 L420 20 L460 10" stroke="#009BA0" stroke-width="4" fill="none"/>
+    <path d="M0 250 L60 220 L120 180 L180 140 L240 100 L300 70 L360 40 L420 20 L460 10 L460 250 Z" fill="#009BA0" opacity="0.2"/>
+    
+    <!-- Data points -->
+    <circle cx="60" cy="220" r="4" fill="#009BA0"/>
+    <circle cx="120" cy="180" r="4" fill="#009BA0"/>
+    <circle cx="180" cy="140" r="4" fill="#009BA0"/>
+    <circle cx="240" cy="100" r="4" fill="#009BA0"/>
+    <circle cx="300" cy="70" r="4" fill="#009BA0"/>
+    <circle cx="360" cy="40" r="4" fill="#009BA0"/>
+    <circle cx="420" cy="20" r="4" fill="#009BA0"/>
+    <circle cx="460" cy="10" r="6" fill="#FF0057"/>
+    
+    <!-- Labels -->
+    <text x="50" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Jan</text>
+    <text x="110" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Mar</text>
+    <text x="170" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">May</text>
+    <text x="230" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Jul</text>
+    <text x="290" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Sep</text>
+    <text x="350" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Nov</text>
+    <text x="410" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Dec</text>
+    <text x="450" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Now</text>
+    
+    <!-- Revenue values -->
+    <text x="-50" y="260" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">$100K</text>
+    <text x="-50" y="200" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">$200K</text>
+    <text x="-50" y="140" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">$300K</text>
+    <text x="-50" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">$400K</text>
+    <text x="-50" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">$500K</text>
+    
+    <!-- Current revenue highlight -->
+    <text x="420" y="0" fill="#FF0057" font-family="Arial, sans-serif" font-size="16" font-weight="bold">$487K</text>
+  </g>
+  
+  <!-- Bottom Panel - User Metrics -->
+  <rect x="390" y="520" width="500" height="170" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="410" y="550" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">User Journey Metrics</text>
+  
+  <g transform="translate(410, 570)">
+    <!-- Funnel visualization -->
+    <rect x="0" y="0" width="100" height="40" rx="4" fill="#FFB201" opacity="0.8"/>
+    <text x="10" y="15" fill="white" font-family="Arial, sans-serif" font-size="10">Visitors</text>
+    <text x="10" y="30" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">25,847</text>
+    
+    <path d="M110 20 L130 20" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="140" y="5" width="90" height="30" rx="4" fill="#009BA0" opacity="0.8"/>
+    <text x="150" y="18" fill="white" font-family="Arial, sans-serif" font-size="10">Trial Start</text>
+    <text x="150" y="30" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">18,234</text>
+    
+    <path d="M240 20 L260 20" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="270" y="8" width="80" height="24" rx="4" fill="#FF0057" opacity="0.8"/>
+    <text x="280" y="18" fill="white" font-family="Arial, sans-serif" font-size="10">Convert</text>
+    <text x="280" y="28" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">11,852</text>
+    
+    <path d="M360 20 L380 20" stroke="#090E2B" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="390" y="10" width="70" height="20" rx="4" fill="#F67A49" opacity="0.8"/>
+    <text x="400" y="18" fill="white" font-family="Arial, sans-serif" font-size="10">Retain</text>
+    <text x="400" y="26" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">9,481</text>
+    
+    <!-- Conversion rates -->
+    <text x="50" y="60" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">70% Trial Rate</text>
+    <text x="170" y="60" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">65% Conversion</text>
+    <text x="300" y="60" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">80% Retention</text>
+  </g>
+  
+  <!-- Right Panel - Churn Analysis -->
+  <rect x="920" y="140" width="200" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="940" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Churn Prevention</text>
+  
+  <!-- Churn risk levels -->
+  <g transform="translate(940, 190)">
+    <rect x="0" y="0" width="160" height="60" rx="6" fill="#FF0057" opacity="0.1"/>
+    <circle cx="20" cy="20" r="8" fill="#FF0057"/>
+    <text x="35" y="15" fill="#090E2B" font-family="Arial, sans-serif" font-size="11" font-weight="bold">High Risk</text>
+    <text x="35" y="30" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">127 users</text>
+    <text x="35" y="45" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Intervention: Active</text>
+    
+    <rect x="0" y="80" width="160" height="60" rx="6" fill="#FFB201" opacity="0.1"/>
+    <circle cx="20" cy="100" r="8" fill="#FFB201"/>
+    <text x="35" y="95" fill="#090E2B" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Medium Risk</text>
+    <text x="35" y="110" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">341 users</text>
+    <text x="35" y="125" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Monitoring</text>
+    
+    <rect x="0" y="160" width="160" height="60" rx="6" fill="#009BA0" opacity="0.1"/>
+    <circle cx="20" cy="180" r="8" fill="#009BA0"/>
+    <text x="35" y="175" fill="#090E2B" font-family="Arial, sans-serif" font-size="11" font-weight="bold">Low Risk</text>
+    <text x="35" y="190" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">2,847 users</text>
+    <text x="35" y="205" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Stable</text>
+    
+    <!-- ML Insights -->
+    <text x="0" y="250" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">ML Insights</text>
+    <rect x="0" y="260" width="160" height="80" rx="6" fill="#F67A49" opacity="0.1"/>
+    <text x="10" y="280" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">• Usage drops 40%</text>
+    <text x="10" y="295" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">• Support tickets +3</text>
+    <text x="10" y="310" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">• Login frequency ↓</text>
+    <text x="10" y="325" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">• Feature engagement ↓</text>
+    
+    <!-- Success metrics -->
+    <text x="0" y="370" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Success Metrics</text>
+    <rect x="0" y="380" width="160" height="100" rx="6" fill="#009BA0" opacity="0.1"/>
+    <text x="10" y="400" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">40% Churn Reduction</text>
+    <text x="10" y="420" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">8 Brand Properties</text>
+    <text x="10" y="440" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Automated Campaigns</text>
+    <text x="10" y="460" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Predictive Analytics</text>
+  </g>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#090E2B" />
+    </marker>
+  </defs>
+</svg>
