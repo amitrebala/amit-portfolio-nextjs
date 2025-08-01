@@ -12,11 +12,11 @@ export default function Footer() {
                 <span className="invisible">Github</span>
             </a>
             <a className="mx-4"
-              href="mailto:amit.rebala@gmail.com">
-              <img alt="linkedin logo" src={"/icons/mail-fill.svg"} height={45} width={45} />
+              href="mailto:reddy.rebalaamit@gmail.com">
+              <img alt="email logo" src={"/icons/mail-fill.svg"} height={45} width={45} />
               <span className="invisible">Email</span>
             </a>
-            <a className="mx-4" href="https://www.linkedin.com/in/amitrebala">
+            <a className="mx-4" href="https://www.linkedin.com/in/amit-reddy-rebala-310a2898/">
                 <img alt="linkedin logo" src={"/icons/linkedin-box-fill.svg"} height={45} width={45} />
                 <span className="invisible">LinkedIn</span>
             </a>

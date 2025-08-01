@@ -1,0 +1,81 @@
+<svg width="400" height="359" viewBox="0 0 400 359" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="359" fill="#F8FAFC"/>
+  
+  <!-- Background elements -->
+  <circle cx="370" cy="70" r="20" fill="#E2E8F0" opacity="0.5"/>
+  <rect x="25" y="320" width="30" height="30" rx="6" fill="#CBD5E1" opacity="0.3"/>
+  
+  <!-- Search interface mockup -->
+  <rect x="50" y="80" width="300" height="180" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  
+  <!-- Search bar -->
+  <rect x="70" y="100" width="260" height="35" rx="18" fill="#F9FAFB" stroke="#D1D5DB"/>
+  <circle cx="90" cy="117" r="8" fill="#9CA3AF"/>
+  <path d="M86 113 L94 121 M94 113 L86 121" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="110" y="122" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Search across 5 brands...</text>
+  
+  <!-- Brand navigation pills -->
+  <rect x="70" y="150" width="45" height="20" rx="10" fill="#DC2626"/>
+  <text x="77" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Vogue</text>
+  
+  <rect x="125" y="150" width="45" height="20" rx="10" fill="#7C3AED"/>
+  <text x="132" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Wired</text>
+  
+  <rect x="180" y="150" width="50" height="20" rx="10" fill="#059669"/>
+  <text x="188" y="162" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">Bon App</text>
+  
+  <rect x="240" y="150" width="45" height="20" rx="10" fill="#B45309"/>
+  <text x="251" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">AD</text>
+  
+  <rect x="295" y="150" width="35" height="20" rx="10" fill="#C2410C"/>
+  <text x="302" y="162" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">Epic</text>
+  
+  <!-- Search results -->
+  <rect x="70" y="185" width="260" height="15" rx="3" fill="#F3F4F6"/>
+  <rect x="75" y="188" width="40" height="9" rx="1" fill="#3B82F6"/>
+  <rect x="125" y="188" width="80" height="9" rx="1" fill="#6B7280"/>
+  
+  <rect x="70" y="205" width="260" height="15" rx="3" fill="#F3F4F6"/>
+  <rect x="75" y="208" width="60" height="9" rx="1" fill="#EF4444"/>
+  <rect x="145" y="208" width="100" height="9" rx="1" fill="#6B7280"/>
+  
+  <rect x="70" y="225" width="260" height="15" rx="3" fill="#F3F4F6"/>
+  <rect x="75" y="228" width="50" height="9" rx="1" fill="#10B981"/>
+  <rect x="135" y="228" width="90" height="9" rx="1" fill="#6B7280"/>
+  
+  <!-- Person searching -->
+  <circle cx="120" cy="50" r="12" fill="#F3E8FF"/>
+  <rect x="110" y="62" width="20" height="25" rx="10" fill="#3B82F6"/>
+  <rect x="105" y="70" width="8" height="12" rx="4" fill="#FBBF24"/>
+  
+  <!-- Analytics dashboard preview -->
+  <rect x="280" y="40" width="80" height="60" rx="4" fill="#1F2937"/>
+  <rect x="285" y="47" width="70" height="8" rx="2" fill="#4ADE80"/>
+  <text x="290" y="54" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF">Search Analytics</text>
+  
+  <!-- Mini chart bars -->
+  <rect x="290" y="65" width="4" height="8" fill="#3B82F6"/>
+  <rect x="297" y="60" width="4" height="13" fill="#10B981"/>
+  <rect x="304" y="62" width="4" height="11" fill="#F59E0B"/>
+  <rect x="311" y="58" width="4" height="15" fill="#EF4444"/>
+  <rect x="318" y="55" width="4" height="18" fill="#8B5CF6"/>
+  
+  <!-- Content discovery indicators -->
+  <rect x="50" y="280" width="80" height="30" rx="15" fill="#D1FAE5"/>
+  <text x="60" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#047857">40% Better Discovery</text>
+  
+  <rect x="150" y="280" width="100" height="30" rx="15" fill="#FEF3C7"/>
+  <text x="160" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#B45309">95% Editorial Adoption</text>
+  
+  <rect x="270" y="280" width="80" height="30" rx="15" fill="#E0E7FF"/>
+  <text x="280" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4338CA">5-Brand Unity</text>
+  
+  <!-- Magnifying glass icon -->
+  <circle cx="370" cy="180" r="15" fill="#3B82F6" opacity="0.2"/>
+  <circle cx="365" cy="175" r="6" fill="none" stroke="#3B82F6" stroke-width="2"/>
+  <path d="370 180 L375 185" stroke="#3B82F6" stroke-width="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="40" cy="40" r="5" fill="#F472B6" opacity="0.6"/>
+  <circle cx="360" cy="310" r="8" fill="#A78BFA" opacity="0.4"/>
+</svg>
