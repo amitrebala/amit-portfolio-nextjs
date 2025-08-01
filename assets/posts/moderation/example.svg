@@ -1,0 +1,170 @@
+<svg viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#F8FAFC"/>
+  
+  <!-- Main Dashboard -->
+  <rect x="50" y="50" width="1100" height="700" rx="16" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  
+  <!-- Top Navigation -->
+  <rect x="50" y="50" width="1100" height="60" rx="16" fill="#090E2B"/>
+  <text x="80" y="85" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AI Moderation Control Center</text>
+  
+  <!-- Left Panel - Processing Queue -->
+  <rect x="80" y="140" width="250" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="100" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Content Queue</text>
+  
+  <!-- Queue items -->
+  <g transform="translate(100, 190)">
+    <rect x="0" y="0" width="210" height="50" rx="6" fill="#FFB201" opacity="0.1"/>
+    <circle cx="20" cy="25" r="8" fill="#FFB201"/>
+    <text x="35" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Text submission #4729</text>
+    <text x="35" y="35" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Processing... 245ms</text>
+    
+    <rect x="0" y="60" width="210" height="50" rx="6" fill="#009BA0" opacity="0.1"/>
+    <circle cx="20" cy="85" r="8" fill="#009BA0"/>
+    <text x="35" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Image analysis #4728</text>
+    <text x="35" y="95" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Approved - 312ms</text>
+    
+    <rect x="0" y="120" width="210" height="50" rx="6" fill="#FF0057" opacity="0.1"/>
+    <circle cx="20" cy="145" r="8" fill="#FF0057"/>
+    <text x="35" y="140" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Video content #4727</text>
+    <text x="35" y="155" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Flagged - Review needed</text>
+    
+    <rect x="0" y="180" width="210" height="50" rx="6" fill="#009BA0" opacity="0.1"/>
+    <circle cx="20" cy="205" r="8" fill="#009BA0"/>
+    <text x="35" y="200" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Comment thread #4726</text>
+    <text x="35" y="215" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Approved - 189ms</text>
+    
+    <!-- Queue stats -->
+    <text x="0" y="270" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Queue Statistics</text>
+    <text x="0" y="290" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">• Processing: 23 items</text>
+    <text x="0" y="305" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">• Approved today: 2,623</text>
+    <text x="0" y="320" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">• Flagged today: 147</text>
+    <text x="0" y="335" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">• Avg. processing: 287ms</text>
+  </g>
+  
+  <!-- Center Panel - AI Analysis Dashboard -->
+  <rect x="360" y="140" width="520" height="400" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="380" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AI Analysis Performance</text>
+  
+  <!-- Performance chart -->
+  <g transform="translate(380, 190)">
+    <rect x="0" y="0" width="480" height="200" rx="4" fill="#F8FAFC"/>
+    
+    <!-- Chart grid -->
+    <g stroke="#E2E8F0" stroke-width="1" opacity="0.5">
+      <line x1="0" y1="50" x2="480" y2="50"/>
+      <line x1="0" y1="100" x2="480" y2="100"/>
+      <line x1="0" y1="150" x2="480" y2="150"/>
+      <line x1="80" y1="0" x2="80" y2="200"/>
+      <line x1="160" y1="0" x2="160" y2="200"/>
+      <line x1="240" y1="0" x2="240" y2="200"/>
+      <line x1="320" y1="0" x2="320" y2="200"/>
+      <line x1="400" y1="0" x2="400" y2="200"/>
+    </g>
+    
+    <!-- Accuracy line -->
+    <path d="M20 180 L80 175 L160 170 L240 165 L320 160 L400 155 L460 150" stroke="#009BA0" stroke-width="4" fill="none"/>
+    <text x="420" y="145" fill="#009BA0" font-family="Arial, sans-serif" font-size="12" font-weight="bold">99.2%</text>
+    
+    <!-- Processing time line -->
+    <path d="M20 160 L80 155 L160 150 L240 145 L320 140 L400 135 L460 130" stroke="#FFB201" stroke-width="4" fill="none"/>
+    <text x="420" y="125" fill="#FFB201" font-family="Arial, sans-serif" font-size="12" font-weight="bold">287ms</text>
+    
+    <!-- Volume bars -->
+    <rect x="60" y="120" width="20" height="80" fill="#FF0057" opacity="0.6"/>
+    <rect x="140" y="100" width="20" height="100" fill="#FF0057" opacity="0.6"/>
+    <rect x="220" y="80" width="20" height="120" fill="#FF0057" opacity="0.6"/>
+    <rect x="300" y="60" width="20" height="140" fill="#FF0057" opacity="0.6"/>
+    <rect x="380" y="40" width="20" height="160" fill="#FF0057" opacity="0.6"/>
+    <rect x="440" y="20" width="20" height="180" fill="#FF0057" opacity="0.6"/>
+    
+    <!-- Labels -->
+    <text x="60" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">00:00</text>
+    <text x="140" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">04:00</text>
+    <text x="220" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">08:00</text>
+    <text x="300" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">12:00</text>
+    <text x="380" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">16:00</text>
+    <text x="440" y="220" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">20:00</text>
+    
+    <!-- Legend -->
+    <rect x="20" y="240" width="15" height="3" fill="#009BA0"/>
+    <text x="40" y="250" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Accuracy</text>
+    <rect x="100" y="240" width="15" height="3" fill="#FFB201"/>
+    <text x="120" y="250" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Processing Time</text>
+    <rect x="220" y="240" width="15" height="3" fill="#FF0057"/>
+    <text x="240" y="250" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Volume</text>
+  </g>
+  
+  <!-- Model Performance Panel -->
+  <rect x="360" y="570" width="520" height="150" rx="8" fill="white" stroke="#E2E8F0"/>
+  <text x="380" y="600" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">ML Model Performance</text>
+  
+  <g transform="translate(380, 620)">
+    <!-- Model accuracy indicators -->
+    <rect x="0" y="0" width="100" height="60" rx="6" fill="#009BA0" opacity="0.1"/>
+    <text x="15" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Text Analysis</text>
+    <text x="30" y="40" fill="#009BA0" font-family="Arial, sans-serif" font-size="16" font-weight="bold">99.4%</text>
+    
+    <rect x="120" y="0" width="100" height="60" rx="6" fill="#FFB201" opacity="0.1"/>
+    <text x="135" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Image Vision</text>
+    <text x="150" y="40" fill="#FFB201" font-family="Arial, sans-serif" font-size="16" font-weight="bold">98.7%</text>
+    
+    <rect x="240" y="0" width="100" height="60" rx="6" fill="#FF0057" opacity="0.1"/>
+    <text x="255" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Video Analysis</text>
+    <text x="270" y="40" fill="#FF0057" font-family="Arial, sans-serif" font-size="16" font-weight="bold">97.9%</text>
+    
+    <rect x="360" y="0" width="100" height="60" rx="6" fill="#F67A49" opacity="0.1"/>
+    <text x="375" y="20" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Audio Detection</text>
+    <text x="390" y="40" fill="#F67A49" font-family="Arial, sans-serif" font-size="16" font-weight="bold">96.8%</text>
+  </g>
+  
+  <!-- Right Panel - Automation & Alerts -->
+  <rect x="910" y="140" width="210" height="580" rx="8" fill="#F8FAFC"/>
+  <text x="930" y="170" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Automation Status</text>
+  
+  <!-- Automation percentage -->
+  <g transform="translate(970, 200)">
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#E2E8F0" stroke-width="6"/>
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#009BA0" stroke-width="6" 
+            stroke-dasharray="220" stroke-dashoffset="33" transform="rotate(-90 40 40)"/>
+    <text x="25" y="45" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">85%</text>
+  </g>
+  
+  <!-- Alert system -->
+  <g transform="translate(930, 320)">
+    <text x="0" y="0" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Active Alerts</text>
+    
+    <rect x="0" y="15" width="170" height="40" rx="4" fill="#FF0057" opacity="0.1"/>
+    <circle cx="15" cy="35" r="4" fill="#FF0057"/>
+    <text x="25" y="30" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">High volume detected</text>
+    <text x="25" y="45" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">+147% vs yesterday</text>
+    
+    <rect x="0" y="65" width="170" height="40" rx="4" fill="#FFB201" opacity="0.1"/>
+    <circle cx="15" cy="85" r="4" fill="#FFB201"/>
+    <text x="25" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Model drift detected</text>
+    <text x="25" y="95" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">Retraining scheduled</text>
+    
+    <rect x="0" y="115" width="170" height="40" rx="4" fill="#009BA0" opacity="0.1"/>
+    <circle cx="15" cy="135" r="4" fill="#009BA0"/>
+    <text x="25" y="130" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Performance optimal</text>
+    <text x="25" y="145" fill="#090E2B" font-family="Arial, sans-serif" font-size="9">All systems normal</text>
+  </g>
+  
+  <!-- Cost efficiency -->
+  <g transform="translate(930, 500)">
+    <text x="0" y="0" fill="#090E2B" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Cost Efficiency</text>
+    <rect x="0" y="15" width="170" height="80" rx="6" fill="#F67A49" opacity="0.1"/>
+    <text x="15" y="35" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">Operational Cost Reduction</text>
+    <text x="50" y="55" fill="#F67A49" font-family="Arial, sans-serif" font-size="20" font-weight="bold">70%</text>
+    <text x="15" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">vs manual moderation</text>
+  </g>
+  
+  <!-- Brand safety indicator -->
+  <g transform="translate(950, 610)">
+    <path d="M30 0 L60 15 L60 45 L30 60 L0 45 L0 15 Z" fill="#009BA0"/>
+    <text x="15" y="35" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">BRAND</text>
+    <text x="20" y="45" fill="white" font-family="Arial, sans-serif" font-size="10" font-weight="bold">SAFE</text>
+    <text x="-10" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="10">Multi-brand scaling</text>
+  </g>
+</svg>
