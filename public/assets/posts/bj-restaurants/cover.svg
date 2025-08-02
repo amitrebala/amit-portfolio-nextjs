@@ -1,51 +1,87 @@
-<svg width="400" height="359" viewBox="0 0 400 359" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="359" fill="#F8FAFC"/>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#FFF8E1"/>
   
-  <!-- Background elements -->
-  <circle cx="350" cy="80" r="30" fill="#E2E8F0" opacity="0.5"/>
-  <rect x="20" y="280" width="40" height="40" rx="8" fill="#CBD5E1" opacity="0.3"/>
+  <!-- Restaurant Character -->
+  <rect x="50" y="120" width="80" height="60" fill="#FF6B6B" rx="8"/>
+  <rect x="55" y="135" width="12" height="15" fill="#FFFFFF" rx="2"/>
+  <rect x="75" y="135" width="12" height="15" fill="#FFFFFF" rx="2"/>
+  <rect x="95" y="135" width="12" height="15" fill="#FFFFFF" rx="2"/>
+  <rect x="115" y="135" width="12" height="15" fill="#FFFFFF" rx="2"/>
+  <rect x="70" y="160" width="20" height="20" fill="#8B4513" rx="10"/>
   
-  <!-- Restaurant building -->
-  <rect x="50" y="120" width="120" height="80" rx="4" fill="#EF4444"/>
-  <rect x="60" y="140" width="20" height="25" rx="2" fill="#FFFFFF"/>
-  <rect x="90" y="140" width="20" height="25" rx="2" fill="#FFFFFF"/>
-  <rect x="120" y="140" width="20" height="25" rx="2" fill="#FFFFFF"/>
-  <rect x="75" y="175" width="30" height="25" rx="15" fill="#92400E"/>
+  <!-- Roof -->
+  <path d="M40 120 L90 80 L140 120 Z" fill="#FF8A65"/>
   
-  <!-- Mobile phone with ordering interface -->
-  <rect x="220" y="100" width="80" height="120" rx="12" fill="#1E293B"/>
-  <rect x="230" y="115" width="60" height="90" rx="4" fill="#FFFFFF"/>
+  <!-- Restaurant Character Face -->
+  <circle cx="70" cy="105" r="3" fill="#333"/>
+  <circle cx="110" cy="105" r="3" fill="#333"/>
+  <ellipse cx="90" cy="115" rx="8" ry="4" fill="#333"/>
   
-  <!-- Phone screen content -->
-  <rect x="235" y="125" width="50" height="8" rx="4" fill="#3B82F6"/>
-  <rect x="235" y="140" width="25" height="6" rx="3" fill="#EF4444"/>
-  <rect x="265" y="140" width="20" height="6" rx="3" fill="#10B981"/>
-  <rect x="235" y="155" width="50" height="12" rx="6" fill="#F59E0B"/>
-  <rect x="235" y="175" width="30" height="8" rx="4" fill="#8B5CF6"/>
+  <!-- Digital Transformation Arrow -->
+  <path d="M150 140 L190 140" stroke="#4ECDC4" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
   
-  <!-- Person using phone -->
-  <circle cx="180" cy="160" r="15" fill="#F3E8FF"/>
-  <rect x="170" y="175" width="20" height="30" rx="10" fill="#3B82F6"/>
-  <rect x="162" y="185" width="8" height="15" rx="4" fill="#FBBF24"/>
+  <!-- Mobile Device -->
+  <rect x="210" y="100" width="60" height="100" fill="#6C63FF" rx="10"/>
+  <rect x="220" y="115" width="40" height="70" fill="#FFFFFF" rx="4"/>
   
-  <!-- Growth arrow -->
-  <path d="M320 200 L360 160 L350 170 L370 150 L380 160 L360 180 L370 170 L320 210 Z" fill="#10B981"/>
+  <!-- App Interface -->
+  <rect x="225" y="125" width="30" height="6" fill="#FF6B6B" rx="3"/>
+  <rect x="225" y="140" width="20" height="6" fill="#4ECDC4" rx="3"/>
+  <rect x="225" y="155" width="25" height="6" fill="#FFE66D" rx="3"/>
+  <rect x="225" y="170" width="30" height="6" fill="#A8E6CF" rx="3"/>
   
-  <!-- Revenue chart bars -->
-  <rect x="320" y="220" width="8" height="20" fill="#3B82F6"/>
-  <rect x="332" y="210" width="8" height="30" fill="#10B981"/>
-  <rect x="344" y="200" width="8" height="40" fill="#F59E0B"/>
-  <rect x="356" y="190" width="8" height="50" fill="#EF4444"/>
+  <!-- Order Icon -->
+  <circle cx="240" cy="190" r="8" fill="#FFE66D"/>
+  <rect x="236" y="186" width="8" height="8" fill="#FF6B6B" rx="2"/>
   
-  <!-- Dollar signs -->
-  <text x="300" y="280" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#059669">$360K</text>
+  <!-- Person Character -->
+  <circle cx="150" cy="210" r="20" fill="#FFB347"/>
+  <circle cx="145" cy="205" r="2" fill="#333"/>
+  <circle cx="155" cy="205" r="2" fill="#333"/>
+  <ellipse cx="150" cy="220" rx="8" ry="4" fill="#333"/>
   
-  <!-- Decorative elements -->
-  <circle cx="60" cy="60" r="8" fill="#F472B6" opacity="0.6"/>
-  <circle cx="350" cy="300" r="12" fill="#A78BFA" opacity="0.4"/>
+  <rect x="130" y="230" width="40" height="50" fill="#4ECDC4" rx="20"/>
+  <rect x="135" y="250" width="12" height="30" fill="#FFB347"/>
+  <rect x="153" y="250" width="12" height="30" fill="#FFB347"/>
   
-  <!-- Cart icon -->
-  <rect x="150" y="250" width="30" height="20" rx="3" fill="#6B7280"/>
-  <circle cx="155" cy="275" r="3" fill="#6B7280"/>
-  <circle cx="175" cy="275" r="3" fill="#6B7280"/>
+  <!-- Revenue Growth Chart -->
+  <rect x="300" y="180" width="8" height="30" fill="#FF6B6B"/>
+  <rect x="315" y="160" width="8" height="50" fill="#4ECDC4"/>
+  <rect x="330" y="140" width="8" height="70" fill="#FFE66D"/>
+  <rect x="345" y="120" width="8" height="90" fill="#A8E6CF"/>
+  
+  <!-- Growth Arrow -->
+  <path d="M280 150 L290 140 L285 145 L295 135 L300 140 L290 150 L295 145 L280 155 Z" fill="#4ECDC4"/>
+  
+  <!-- Revenue Label -->
+  <rect x="280" y="220" width="70" height="20" fill="#4ECDC4" rx="10"/>
+  <text x="295" y="233" font-family="Arial" font-size="12" fill="#FFFFFF" font-weight="bold">$360K</text>
+  
+  <!-- Cart Abandonment Icon -->
+  <rect x="80" y="250" width="25" height="15" fill="#FFE66D" rx="3"/>
+  <circle cx="85" cy="270" r="3" fill="#FFE66D"/>
+  <circle cx="100" cy="270" r="3" fill="#FFE66D"/>
+  <text x="75" y="285" font-family="Arial" font-size="8" fill="#333">-15%</text>
+  
+  <!-- Traffic Increase -->
+  <circle cx="320" cy="80" r="15" fill="#A8E6CF"/>
+  <text x="312" y="85" font-family="Arial" font-size="12" fill="#333" font-weight="bold">+20%</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="10" fill="#FFE66D" opacity="0.7"/>
+  <circle cx="360" cy="50" r="12" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="30" cy="280" r="8" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="370" cy="270" r="6" fill="#A8E6CF" opacity="0.7"/>
+  
+  <!-- Digital Elements -->
+  <rect x="250" y="50" width="20" height="20" fill="#6C63FF" rx="4"/>
+  <circle cx="260" cy="60" r="3" fill="#FFFFFF"/>
+  
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4ECDC4"/>
+    </marker>
+  </defs>
 </svg>

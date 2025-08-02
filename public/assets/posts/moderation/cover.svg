@@ -1,126 +1,81 @@
-<svg viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="1200" height="800" fill="#F8FAFC"/>
+  <rect width="400" height="300" fill="#E8F5F9"/>
   
-  <!-- Main Container -->
-  <rect x="100" y="100" width="1000" height="600" rx="20" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- AI Brain Character -->
+  <circle cx="120" cy="120" r="45" fill="#FF6B6B"/>
+  <circle cx="110" cy="110" r="6" fill="#FFFFFF"/>
+  <circle cx="130" cy="110" r="6" fill="#FFFFFF"/>
+  <ellipse cx="120" cy="135" rx="15" ry="8" fill="#FFFFFF"/>
   
-  <!-- Header -->
-  <rect x="140" y="140" width="920" height="80" rx="10" fill="#090E2B"/>
-  <text x="180" y="190" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold">AI-Powered Content Moderation</text>
-  
-  <!-- AI Brain Visualization -->
-  <g transform="translate(200, 280)">
-    <circle cx="100" cy="100" r="80" fill="#009BA0" opacity="0.1"/>
-    <circle cx="100" cy="100" r="60" fill="#009BA0" opacity="0.2"/>
-    <circle cx="100" cy="100" r="40" fill="#009BA0" opacity="0.4"/>
-    <circle cx="100" cy="100" r="20" fill="#009BA0"/>
-    
-    <!-- Neural network connections -->
-    <g stroke="#009BA0" stroke-width="2" opacity="0.6">
-      <line x1="60" y1="60" x2="100" y2="100"/>
-      <line x1="140" y1="60" x2="100" y2="100"/>
-      <line x1="60" y1="140" x2="100" y2="100"/>
-      <line x1="140" y1="140" x2="100" y2="100"/>
-      <line x1="100" y1="40" x2="100" y2="100"/>
-      <line x1="100" y1="160" x2="100" y2="100"/>
-      <line x1="40" y1="100" x2="100" y2="100"/>
-      <line x1="160" y1="100" x2="100" y2="100"/>
-    </g>
-    
-    <!-- Neural nodes -->
-    <circle cx="60" cy="60" r="8" fill="#FF0057"/>
-    <circle cx="140" cy="60" r="8" fill="#FFB201"/>
-    <circle cx="60" cy="140" r="8" fill="#F67A49"/>
-    <circle cx="140" cy="140" r="8" fill="#FF0057"/>
-    <circle cx="100" cy="40" r="8" fill="#009BA0"/>
-    <circle cx="100" cy="160" r="8" fill="#FFB201"/>
-    <circle cx="40" cy="100" r="8" fill="#F67A49"/>
-    <circle cx="160" cy="100" r="8" fill="#009BA0"/>
-    
-    <text x="70" y="240" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">AI Processing Core</text>
+  <!-- Neural Network Connections -->
+  <g stroke="#4ECDC4" stroke-width="3" opacity="0.8">
+    <line x1="75" y1="75" x2="165" y2="165"/>
+    <line x1="165" y1="75" x2="75" y2="165"/>
+    <line x1="120" y1="65" x2="120" y2="175"/>
+    <line x1="65" y1="120" x2="175" y2="120"/>
   </g>
   
-  <!-- Content Flow Pipeline -->
-  <g transform="translate(450, 300)">
-    <rect x="0" y="0" width="120" height="60" rx="8" fill="#FFB201" opacity="0.8"/>
-    <text x="20" y="25" fill="white" font-family="Arial, sans-serif" font-size="12">Content</text>
-    <text x="25" y="40" fill="white" font-family="Arial, sans-serif" font-size="12">Submitted</text>
-    <text x="30" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">2,847/day</text>
-    
-    <path d="M130 30 L160 30" stroke="#090E2B" stroke-width="3" marker-end="url(#arrowhead)"/>
-    
-    <rect x="170" y="0" width="120" height="60" rx="8" fill="#009BA0" opacity="0.8"/>
-    <text x="210" y="25" fill="white" font-family="Arial, sans-serif" font-size="12">AI</text>
-    <text x="195" y="40" fill="white" font-family="Arial, sans-serif" font-size="12">Processing</text>
-    <text x="200" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="11"><500ms</text>
-    
-    <path d="M300 30 L330 30" stroke="#090E2B" stroke-width="3" marker-end="url(#arrowhead)"/>
-    
-    <rect x="340" y="0" width="120" height="60" rx="8" fill="#FF0057" opacity="0.8"/>
-    <text x="375" y="25" fill="white" font-family="Arial, sans-serif" font-size="12">Content</text>
-    <text x="375" y="40" fill="white" font-family="Arial, sans-serif" font-size="12">Approved</text>
-    <text x="375" y="80" fill="#090E2B" font-family="Arial, sans-serif" font-size="11">2,623/day</text>
-  </g>
+  <!-- Neural Nodes -->
+  <circle cx="75" cy="75" r="8" fill="#FFE66D"/>
+  <circle cx="165" cy="75" r="8" fill="#A8E6CF"/>
+  <circle cx="75" cy="165" r="8" fill="#FFB347"/>
+  <circle cx="165" cy="165" r="8" fill="#DDA0DD"/>
   
-  <!-- Accuracy Metrics -->
-  <g transform="translate(500, 450)">
-    <rect x="0" y="0" width="200" height="100" rx="8" fill="#F67A49" opacity="0.1"/>
-    <text x="20" y="25" fill="#090E2B" font-family="Arial, sans-serif" font-size="16" font-weight="bold">99.2% Accuracy</text>
-    <text x="20" y="50" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Brand Safety Compliance</text>
-    <text x="20" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Real-time Processing</text>
-  </g>
+  <!-- Computer Screen -->
+  <rect x="220" y="80" width="120" height="80" fill="#6C63FF" rx="8"/>
+  <rect x="230" y="90" width="100" height="60" fill="#FFFFFF" rx="4"/>
   
-  <!-- Automation Stats -->
-  <g transform="translate(750, 280)">
-    <circle cx="80" cy="80" r="70" fill="none" stroke="#E2E8F0" stroke-width="8"/>
-    <circle cx="80" cy="80" r="70" fill="none" stroke="#009BA0" stroke-width="8" 
-            stroke-dasharray="378" stroke-dashoffset="57" transform="rotate(-90 80 80)"/>
-    <text x="65" y="85" fill="#090E2B" font-family="Arial, sans-serif" font-size="20" font-weight="bold">85%</text>
-    <text x="40" y="200" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Automation Rate</text>
-  </g>
+  <!-- Content Moderation Elements -->
+  <circle cx="250" cy="110" r="8" fill="#FF6B6B"/>
+  <text x="246" y="114" font-family="Arial" font-size="12" fill="#FFFFFF">✗</text>
   
-  <!-- Content Categories -->
-  <g transform="translate(180, 580)">
-    <rect x="0" y="0" width="100" height="50" rx="6" fill="#FF0057" opacity="0.8"/>
-    <text x="25" y="20" fill="white" font-family="Arial, sans-serif" font-size="11">Text</text>
-    <text x="15" y="35" fill="white" font-family="Arial, sans-serif" font-size="11">Analysis</text>
-    
-    <rect x="120" y="0" width="100" height="50" rx="6" fill="#009BA0" opacity="0.8"/>
-    <text x="145" y="20" fill="white" font-family="Arial, sans-serif" font-size="11">Image</text>
-    <text x="135" y="35" fill="white" font-family="Arial, sans-serif" font-size="11">Recognition</text>
-    
-    <rect x="240" y="0" width="100" height="50" rx="6" fill="#FFB201" opacity="0.8"/>
-    <text x="265" y="20" fill="white" font-family="Arial, sans-serif" font-size="11">Video</text>
-    <text x="255" y="35" fill="white" font-family="Arial, sans-serif" font-size="11">Processing</text>
-    
-    <rect x="360" y="0" width="100" height="50" rx="6" fill="#F67A49" opacity="0.8"/>
-    <text x="385" y="20" fill="white" font-family="Arial, sans-serif" font-size="11">Audio</text>
-    <text x="375" y="35" fill="white" font-family="Arial, sans-serif" font-size="11">Detection</text>
-  </g>
+  <circle cx="280" cy="110" r="8" fill="#4ECDC4"/>
+  <text x="276" y="114" font-family="Arial" font-size="12" fill="#FFFFFF">✓</text>
   
-  <!-- Performance Indicators -->
-  <g transform="translate(750, 450)">
-    <rect x="0" y="0" width="220" height="120" rx="8" fill="#009BA0" opacity="0.1"/>
-    <text x="15" y="25" fill="#090E2B" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Performance Metrics</text>
-    <text x="15" y="50" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Sub-second processing</text>
-    <text x="15" y="70" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• 30M+ users served</text>
-    <text x="15" y="90" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• 70% cost reduction</text>
-    <text x="15" y="110" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">• Multi-brand scaling</text>
-  </g>
+  <circle cx="310" cy="110" r="8" fill="#FFE66D"/>
+  <text x="306" y="114" font-family="Arial" font-size="12" fill="#FFFFFF">?</text>
   
-  <!-- Brand Safety Shield -->
-  <g transform="translate(900, 300)">
-    <path d="M40 0 L80 20 L80 60 L40 80 L0 60 L0 20 Z" fill="#FF0057" opacity="0.8"/>
-    <text x="25" y="45" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">SAFE</text>
-    <text x="10" y="100" fill="#090E2B" font-family="Arial, sans-serif" font-size="12">Brand Protection</text>
-  </g>
+  <!-- Content Lines -->
+  <rect x="240" y="125" width="60" height="3" fill="#E0E0E0" rx="1"/>
+  <rect x="240" y="135" width="45" height="3" fill="#E0E0E0" rx="1"/>
+  <rect x="240" y="145" width="70" height="3" fill="#E0E0E0" rx="1"/>
   
-  <!-- Arrow marker -->
+  <!-- Person Character -->
+  <circle cx="80" cy="210" r="18" fill="#FFB347"/>
+  <circle cx="75" cy="206" r="2" fill="#333"/>
+  <circle cx="85" cy="206" r="2" fill="#333"/>
+  <ellipse cx="80" cy="218" rx="6" ry="3" fill="#333"/>
+  
+  <rect x="62" y="228" width="36" height="45" fill="#6C63FF" rx="18"/>
+  <rect x="68" y="245" width="10" height="28" fill="#FFB347"/>
+  <rect x="82" y="245" width="10" height="28" fill="#FFB347"/>
+  
+  <!-- Shield Symbol -->
+  <path d="M320 190 L340 190 L345 210 L340 230 L320 230 L315 210 Z" fill="#4ECDC4"/>
+  <circle cx="330" cy="210" r="8" fill="#FFFFFF"/>
+  <text x="326" y="214" font-family="Arial" font-size="12" fill="#4ECDC4">✓</text>
+  
+  <!-- Performance Stats -->
+  <rect x="200" y="240" width="80" height="25" fill="#FF6B6B" rx="12"/>
+  <text x="215" y="255" font-family="Arial" font-size="11" fill="#FFFFFF" font-weight="bold">99.2%</text>
+  
+  <rect x="290" y="240" width="80" height="25" fill="#4ECDC4" rx="12"/>
+  <text x="310" y="255" font-family="Arial" font-size="11" fill="#FFFFFF" font-weight="bold">85%</text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="50" cy="50" r="12" fill="#FFE66D" opacity="0.7"/>
+  <circle cx="350" cy="40" r="15" fill="#A8E6CF" opacity="0.7"/>
+  <circle cx="30" cy="270" r="10" fill="#DDA0DD" opacity="0.7"/>
+  <circle cx="370" cy="260" r="8" fill="#FFB347" opacity="0.7"/>
+  
+  <!-- Arrow Flow -->
+  <path d="M175 120 L210 120" stroke="#6C63FF" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- Arrow Marker -->
   <defs>
-    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
-     refX="0" refY="3.5" orient="auto">
-      <polygon points="0 0, 10 3.5, 0 7" fill="#090E2B" />
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#6C63FF"/>
     </marker>
   </defs>
 </svg>

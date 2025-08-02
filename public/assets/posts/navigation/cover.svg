@@ -1,81 +1,115 @@
-<svg width="400" height="359" viewBox="0 0 400 359" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="400" height="359" fill="#F8FAFC"/>
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#F5F3FF"/>
   
-  <!-- Background elements -->
-  <circle cx="370" cy="70" r="20" fill="#E2E8F0" opacity="0.5"/>
-  <rect x="25" y="320" width="30" height="30" rx="6" fill="#CBD5E1" opacity="0.3"/>
+  <!-- Search Interface -->
+  <rect x="50" y="80" width="200" height="120" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="8"/>
   
-  <!-- Search interface mockup -->
-  <rect x="50" y="80" width="300" height="180" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <!-- Search Bar -->
+  <rect x="65" y="100" width="170" height="25" fill="#F0F0F0" rx="12"/>
+  <circle cx="80" cy="112" r="6" fill="#6C63FF"/>
+  <path d="M77 109 L83 115 M77 115 L83 109" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="95" y="116" font-family="Arial" font-size="10" fill="#666">Search 5 brands...</text>
   
-  <!-- Search bar -->
-  <rect x="70" y="100" width="260" height="35" rx="18" fill="#F9FAFB" stroke="#D1D5DB"/>
-  <circle cx="90" cy="117" r="8" fill="#9CA3AF"/>
-  <path d="M86 113 L94 121 M94 113 L86 121" stroke="#FFFFFF" stroke-width="2"/>
-  <text x="110" y="122" font-family="Arial, sans-serif" font-size="12" fill="#6B7280">Search across 5 brands...</text>
+  <!-- Brand Pills -->
+  <rect x="65" y="135" width="30" height="12" fill="#FF6B6B" rx="6"/>
+  <text x="71" y="143" font-family="Arial" font-size="7" fill="#FFFFFF" font-weight="bold">VG</text>
   
-  <!-- Brand navigation pills -->
-  <rect x="70" y="150" width="45" height="20" rx="10" fill="#DC2626"/>
-  <text x="77" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Vogue</text>
+  <rect x="100" y="135" width="30" height="12" fill="#6C63FF" rx="6"/>
+  <text x="106" y="143" font-family="Arial" font-size="7" fill="#FFFFFF" font-weight="bold">WD</text>
   
-  <rect x="125" y="150" width="45" height="20" rx="10" fill="#7C3AED"/>
-  <text x="132" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">Wired</text>
+  <rect x="135" y="135" width="30" height="12" fill="#4ECDC4" rx="6"/>
+  <text x="141" y="143" font-family="Arial" font-size="7" fill="#FFFFFF" font-weight="bold">BA</text>
   
-  <rect x="180" y="150" width="50" height="20" rx="10" fill="#059669"/>
-  <text x="188" y="162" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">Bon App</text>
+  <rect x="170" y="135" width="30" height="12" fill="#FFE66D" rx="6"/>
+  <text x="177" y="143" font-family="Arial" font-size="7" fill="#333" font-weight="bold">AD</text>
   
-  <rect x="240" y="150" width="45" height="20" rx="10" fill="#B45309"/>
-  <text x="251" y="162" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#FFFFFF">AD</text>
+  <rect x="205" y="135" width="25" height="12" fill="#A8E6CF" rx="6"/>
+  <text x="210" y="143" font-family="Arial" font-size="7" fill="#333" font-weight="bold">EP</text>
   
-  <rect x="295" y="150" width="35" height="20" rx="10" fill="#C2410C"/>
-  <text x="302" y="162" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#FFFFFF">Epic</text>
+  <!-- Search Results -->
+  <rect x="65" y="155" width="160" height="8" fill="#F0F0F0" rx="2"/>
+  <rect x="70" y="157" width="30" height="4" fill="#FF6B6B" rx="2"/>
+  <rect x="105" y="157" width="80" height="4" fill="#E0E0E0" rx="2"/>
   
-  <!-- Search results -->
-  <rect x="70" y="185" width="260" height="15" rx="3" fill="#F3F4F6"/>
-  <rect x="75" y="188" width="40" height="9" rx="1" fill="#3B82F6"/>
-  <rect x="125" y="188" width="80" height="9" rx="1" fill="#6B7280"/>
+  <rect x="65" y="168" width="160" height="8" fill="#F0F0F0" rx="2"/>
+  <rect x="70" y="170" width="40" height="4" fill="#4ECDC4" rx="2"/>
+  <rect x="115" y="170" width="70" height="4" fill="#E0E0E0" rx="2"/>
   
-  <rect x="70" y="205" width="260" height="15" rx="3" fill="#F3F4F6"/>
-  <rect x="75" y="208" width="60" height="9" rx="1" fill="#EF4444"/>
-  <rect x="145" y="208" width="100" height="9" rx="1" fill="#6B7280"/>
+  <rect x="65" y="181" width="160" height="8" fill="#F0F0F0" rx="2"/>
+  <rect x="70" y="183" width="35" height="4" fill="#6C63FF" rx="2"/>
+  <rect x="110" y="183" width="75" height="4" fill="#E0E0E0" rx="2"/>
   
-  <rect x="70" y="225" width="260" height="15" rx="3" fill="#F3F4F6"/>
-  <rect x="75" y="228" width="50" height="9" rx="1" fill="#10B981"/>
-  <rect x="135" y="228" width="90" height="9" rx="1" fill="#6B7280"/>
+  <!-- Person Character -->
+  <circle cx="120" cy="50" r="15" fill="#FFB347"/>
+  <circle cx="115" cy="45" r="2" fill="#333"/>
+  <circle cx="125" cy="45" r="2" fill="#333"/>
+  <ellipse cx="120" cy="58" rx="6" ry="3" fill="#333"/>
   
-  <!-- Person searching -->
-  <circle cx="120" cy="50" r="12" fill="#F3E8FF"/>
-  <rect x="110" y="62" width="20" height="25" rx="10" fill="#3B82F6"/>
-  <rect x="105" y="70" width="8" height="12" rx="4" fill="#FBBF24"/>
+  <rect x="105" y="65" width="30" height="35" fill="#6C63FF" rx="15"/>
+  <rect x="110" y="80" width="8" height="20" fill="#FFB347"/>
+  <rect x="122" y="80" width="8" height="20" fill="#FFB347"/>
   
-  <!-- Analytics dashboard preview -->
-  <rect x="280" y="40" width="80" height="60" rx="4" fill="#1F2937"/>
-  <rect x="285" y="47" width="70" height="8" rx="2" fill="#4ADE80"/>
-  <text x="290" y="54" font-family="Arial, sans-serif" font-size="8" fill="#FFFFFF">Search Analytics</text>
+  <!-- Navigation Menu -->
+  <rect x="280" y="90" width="100" height="80" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="2" rx="6"/>
+  <rect x="290" y="105" width="80" height="6" fill="#FF6B6B" rx="3"/>
+  <rect x="290" y="120" width="60" height="6" fill="#4ECDC4" rx="3"/>
+  <rect x="290" y="135" width="70" height="6" fill="#FFE66D" rx="3"/>
+  <rect x="290" y="150" width="65" height="6" fill="#A8E6CF" rx="3"/>
   
-  <!-- Mini chart bars -->
-  <rect x="290" y="65" width="4" height="8" fill="#3B82F6"/>
-  <rect x="297" y="60" width="4" height="13" fill="#10B981"/>
-  <rect x="304" y="62" width="4" height="11" fill="#F59E0B"/>
-  <rect x="311" y="58" width="4" height="15" fill="#EF4444"/>
-  <rect x="318" y="55" width="4" height="18" fill="#8B5CF6"/>
+  <!-- Analytics Dashboard -->
+  <rect x="280" y="40" width="80" height="40" fill="#2C3E50" rx="4"/>
+  <text x="290" y="52" font-family="Arial" font-size="8" fill="#FFFFFF" font-weight="bold">Analytics</text>
+  <rect x="285" y="58" width="4" height="10" fill="#FF6B6B"/>
+  <rect x="292" y="55" width="4" height="13" fill="#4ECDC4"/>
+  <rect x="299" y="60" width="4" height="8" fill="#FFE66D"/>
+  <rect x="306" y="52" width="4" height="16" fill="#A8E6CF"/>
+  <rect x="313" y="57" width="4" height="11" fill="#6C63FF"/>
   
-  <!-- Content discovery indicators -->
-  <rect x="50" y="280" width="80" height="30" rx="15" fill="#D1FAE5"/>
-  <text x="60" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#047857">40% Better Discovery</text>
+  <!-- Performance Metrics -->
+  <rect x="50" y="230" width="60" height="20" fill="#4ECDC4" rx="10"/>
+  <text x="63" y="243" font-family="Arial" font-size="9" fill="#FFFFFF" font-weight="bold">+40%</text>
   
-  <rect x="150" y="280" width="100" height="30" rx="15" fill="#FEF3C7"/>
-  <text x="160" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#B45309">95% Editorial Adoption</text>
+  <rect x="120" y="230" width="70" height="20" fill="#FFE66D" rx="10"/>
+  <text x="133" y="243" font-family="Arial" font-size="9" fill="#333" font-weight="bold">95%</text>
   
-  <rect x="270" y="280" width="80" height="30" rx="15" fill="#E0E7FF"/>
-  <text x="280" y="297" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#4338CA">5-Brand Unity</text>
+  <rect x="200" y="230" width="80" height="20" fill="#A8E6CF" rx="10"/>
+  <text x="210" y="243" font-family="Arial" font-size="9" fill="#333" font-weight="bold">5 Brands</text>
   
-  <!-- Magnifying glass icon -->
-  <circle cx="370" cy="180" r="15" fill="#3B82F6" opacity="0.2"/>
-  <circle cx="365" cy="175" r="6" fill="none" stroke="#3B82F6" stroke-width="2"/>
-  <path d="370 180 L375 185" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Search Path Lines -->
+  <g stroke="#6C63FF" stroke-width="2" opacity="0.6" stroke-dasharray="3,2">
+    <path d="M135 112 L260 112"/>
+    <path d="M270 140 L300 90"/>
+  </g>
   
-  <!-- Decorative elements -->
-  <circle cx="40" cy="40" r="5" fill="#F472B6" opacity="0.6"/>
-  <circle cx="360" cy="310" r="8" fill="#A78BFA" opacity="0.4"/>
+  <!-- Magnifying Glass -->
+  <circle cx="320" cy="200" r="15" fill="#6C63FF" opacity="0.2"/>
+  <circle cx="315" cy="195" r="8" fill="none" stroke="#6C63FF" stroke-width="3"/>
+  <path d="321 201 L328 208" stroke="#6C63FF" stroke-width="3"/>
+  
+  <!-- Content Discovery Icons -->
+  <rect x="350" y="180" width="20" height="15" fill="#FF6B6B" rx="3"/>
+  <circle cx="360" cy="187" r="3" fill="#FFFFFF"/>
+  
+  <rect x="350" y="200" width="20" height="15" fill="#4ECDC4" rx="3"/>
+  <rect x="356" y="206" width="8" height="3" fill="#FFFFFF" rx="1"/>
+  
+  <rect x="350" y="220" width="20" height="15" fill="#FFE66D" rx="3"/>
+  <path d="M355 227 L365 227 M360 222 L360 232" stroke="#333" stroke-width="1"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="40" cy="40" r="8" fill="#FF6B6B" opacity="0.7"/>
+  <circle cx="360" cy="50" r="10" fill="#4ECDC4" opacity="0.7"/>
+  <circle cx="30" cy="280" r="6" fill="#FFE66D" opacity="0.7"/>
+  <circle cx="370" cy="270" r="8" fill="#A8E6CF" opacity="0.7"/>
+  
+  <!-- Brand Icons -->
+  <circle cx="20" cy="150" r="8" fill="#FF6B6B"/>
+  <text x="16" y="154" font-family="Arial" font-size="8" fill="#FFFFFF" font-weight="bold">V</text>
+  
+  <circle cx="20" cy="170" r="8" fill="#6C63FF"/>
+  <text x="16" y="174" font-family="Arial" font-size="8" fill="#FFFFFF" font-weight="bold">W</text>
+  
+  <circle cx="20" cy="190" r="8" fill="#4ECDC4"/>
+  <text x="16" y="194" font-family="Arial" font-size="8" fill="#FFFFFF" font-weight="bold">B</text>
 </svg>
