@@ -1,6 +1,6 @@
 ---
 title: 'Restaurant Digital Transformation - $360K Revenue Growth'
-excerpt: 'Led comprehensive digital transformation for BJ's Restaurants, achieving 20% traffic increase and $360K incremental Q1 revenue through strategic web redesign, ML-powered checkout optimization, and enhanced user experience across the entire customer journey.'
+excerpt: 'Led comprehensive digital transformation for BJ Restaurants, achieving 20% traffic increase and $360K incremental Q1 revenue through strategic web redesign, ML-powered checkout optimization, and enhanced user experience across the entire customer journey.'
 coverImage: '/assets/posts/bj-restaurants/cover.svg'
 date: '2023-01-15T05:35:07.322Z'
 author:
@@ -12,7 +12,7 @@ ogImage:
 
 ## Product
 
-Spearheaded the complete digital transformation of BJ's Restaurants' online ordering and customer experience platform, reimagining how customers discover, order, and engage with the brand across all digital touchpoints. The initiative focused on modernizing the entire user journey from homepage discovery through post-order engagement and loyalty program integration.
+Spearheaded the complete digital transformation of BJ Restaurants online ordering and customer experience platform, reimagining how customers discover, order, and engage with the brand across all digital touchpoints. The initiative focused on modernizing the entire user journey from homepage discovery through post-order engagement and loyalty program integration.
 
 The transformation addressed critical challenges in restaurant digital ordering including high cart abandonment rates, complex menu navigation, suboptimal checkout flows, and disconnected rewards integration, while maintaining brand consistency and operational efficiency.
 
