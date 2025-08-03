@@ -4,5 +4,10 @@
       "src": "package.json",
       "use": "@vercel/next"
     }
-  ]
+  ],
+  "functions": {
+    "pages/**/*.js": {
+      "maxDuration": 30
+    }
+  }
 }
